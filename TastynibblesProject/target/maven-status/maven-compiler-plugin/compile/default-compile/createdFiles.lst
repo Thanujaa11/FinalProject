@@ -1,0 +1,16 @@
+com\Tastynibbles\Locators\CreateAcntObj.class
+com\Tastynibbles\Locators\LoginPageObjects.class
+com\Tastynibbles\Pages\Homepage.class
+com\Tastynibbles\Locators\MultipleItemsToCartObjs.class
+com\Tastynibbles\Locators\ProductSearchObjs.class
+com\Tasynibbles\ScreenShot\Capture.class
+com\Tastynibbles\Browser\Browser.class
+com\Tastynibbles\Locators\LoginAndLogoutObjects.class
+com\Tastynibbles\Pages\CreateAcnt.class
+com\Tastynibbles\Browser\Utility.class
+com\Tastynibbles\Pages\ProductSearchPage.class
+com\Tastynibbles\Pages\MultipleItemsCartSummary.class
+com\Tastynibbles\CustomizedExceptions\MyException.class
+com\Tastynibbles\Locators\HomePageObjs.class
+com\Tastynibbles\Pages\LoginPage.class
+com\Tastynibbles\Pages\LoginAndLogoutPage.class

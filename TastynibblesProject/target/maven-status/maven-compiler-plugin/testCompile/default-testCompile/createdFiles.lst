@@ -1,0 +1,10 @@
+com\Tastynibbles\Runner\TastyNibblesAddMultipleItemstoCart.class
+com\Tastynibbles\StepDefinition\LoginwithValidAndInvalidDataSteps.class
+com\Tastynibbles\StepDefinition\AddMutipleItemsAndVerifySum.class
+com\Tastynibbles\StepDefinition\LoginAndLogout.class
+com\Tastynibbles\StepDefinition\LoginAndSearchProductAndAddtoCart.class
+com\Tastynibbles\Runner\TastyNibblesAddItemToCart.class
+com\Tastynibbles\Runner\TastyNibblesRegistration.class
+com\Tastynibbles\StepDefinition\Registration.class
+com\Tastynibbles\Runner\TastyNibblesLoginwithValidAndInavliddata.class
+com\Tastynibbles\Runner\TastyNibblesLoginAndLogout.class

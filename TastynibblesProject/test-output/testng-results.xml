@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-25T09:21:58 IST" name="Suite" finished-at="2025-03-25T09:25:30 IST" duration-ms="212211">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddItemToCart@5e3d57c7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddMultipleItemstoCart@6ee4d9ab]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginAndLogout@732d0d24]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginwithValidAndInavliddata@1fb19a0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesRegistration@11f0a5a1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-25T09:21:58 IST" name="Test" finished-at="2025-03-25T09:25:30 IST" duration-ms="212211">
+      <class name="com.Tastynibbles.Runner.TastyNibblesAddItemToCart">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddItemToCart@5e3d57c7]" started-at="2025-03-25T09:22:50 IST" name="setUpClass" finished-at="2025-03-25T09:22:50 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e68fac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddItemToCart@5e3d57c7]" started-at="2025-03-25T09:22:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T09:23:26 IST" duration-ms="36081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login and search product and add to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unknown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddItemToCart@5e3d57c7]" started-at="2025-03-25T09:23:26 IST" name="tearDownClass" finished-at="2025-03-25T09:23:26 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Tastynibbles.Runner.TastyNibblesAddItemToCart -->
+      <class name="com.Tastynibbles.Runner.TastyNibblesLoginAndLogout">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginAndLogout@732d0d24]" started-at="2025-03-25T09:23:26 IST" name="setUpClass" finished-at="2025-03-25T09:23:26 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e68fac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginAndLogout@732d0d24]" started-at="2025-03-25T09:23:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T09:23:54 IST" duration-ms="28134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Logout and Session Verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User LogOut"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginAndLogout@732d0d24]" started-at="2025-03-25T09:23:54 IST" name="tearDownClass" finished-at="2025-03-25T09:23:54 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Tastynibbles.Runner.TastyNibblesLoginAndLogout -->
+      <class name="com.Tastynibbles.Runner.TastyNibblesLoginwithValidAndInavliddata">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginwithValidAndInavliddata@1fb19a0]" started-at="2025-03-25T09:23:54 IST" name="setUpClass" finished-at="2025-03-25T09:23:54 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e68fac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginwithValidAndInavliddata@1fb19a0]" started-at="2025-03-25T09:23:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T09:24:24 IST" duration-ms="30452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login with valid and invalid credentials"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginwithValidAndInavliddata@1fb19a0]" started-at="2025-03-25T09:24:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T09:24:50 IST" duration-ms="25981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login with valid and invalid credentials"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesLoginwithValidAndInavliddata@1fb19a0]" started-at="2025-03-25T09:24:50 IST" name="tearDownClass" finished-at="2025-03-25T09:24:50 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Tastynibbles.Runner.TastyNibblesLoginwithValidAndInavliddata -->
+      <class name="com.Tastynibbles.Runner.TastyNibblesRegistration">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesRegistration@11f0a5a1]" started-at="2025-03-25T09:21:58 IST" name="setUpClass" finished-at="2025-03-25T09:21:59 IST" duration-ms="512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e68fac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesRegistration@11f0a5a1]" started-at="2025-03-25T09:21:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T09:22:23 IST" duration-ms="24128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Registration with Invalid Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesRegistration@11f0a5a1]" started-at="2025-03-25T09:22:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T09:22:50 IST" duration-ms="26718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Registration with Valid Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesRegistration@11f0a5a1]" started-at="2025-03-25T09:22:50 IST" name="tearDownClass" finished-at="2025-03-25T09:22:50 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Tastynibbles.Runner.TastyNibblesRegistration -->
+      <class name="com.Tastynibbles.Runner.TastyNibblesAddMultipleItemstoCart">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddMultipleItemstoCart@6ee4d9ab]" started-at="2025-03-25T09:24:50 IST" name="setUpClass" finished-at="2025-03-25T09:24:51 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e68fac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddMultipleItemstoCart@6ee4d9ab]" started-at="2025-03-25T09:24:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-25T09:25:30 IST" duration-ms="39678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Adding two products and verifying cart summary"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unknown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Tastynibbles.Runner.TastyNibblesAddMultipleItemstoCart@6ee4d9ab]" started-at="2025-03-25T09:25:30 IST" name="tearDownClass" finished-at="2025-03-25T09:25:30 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Tastynibbles.Runner.TastyNibblesAddMultipleItemstoCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
